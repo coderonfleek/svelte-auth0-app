@@ -2,7 +2,7 @@
 import createAuth0Client from "@auth0/auth0-spa-js";
 import {user, isAuthenticated, popupOpen} from "./store";
 import config from "../auth_config"; 
-/** Define a default action to perform after authentication */
+
 
 
 async function createClient() {
